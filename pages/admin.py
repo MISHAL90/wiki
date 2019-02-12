@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Page
+# Create your views here.
 
-# Register your models here.
+admin.site.register(Page)
